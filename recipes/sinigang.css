@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(195, 216, 195);
+    color: red;
+}
+
+.header {
+    /* Recipe for Sinigang*/
+    border: solid 5px rgb(157, 186, 135);
+    border-radius: 50px;
+    background-color: rgb(187, 230, 187);
+    display: flex;
+    /*
+    flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* how do you center the header and description without expanding the border in the viewport?*/
+
+}
+
+img {
+    border-radius: 30%;
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /*  display: flex;
+    align-items: center;
+    justify-content: center;
+*/
+}
+
+.description {
+    border: dashed 2px rgb(36, 107, 36);
+    background-color: rgb(55, 72, 58);
+    border: solid 3px;
+    border-radius: 55px;
+    color: rgb(204, 214, 218)
+}
+
+.ingredients,
+.steps {
+    border: solid 2px;
+    background-color: rgb(244, 244, 206);
+    text-align: center;
+}
+
+.footer {
+    border: solid 5px rgb(44, 97, 39);
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(244, 244, 206);
+    /*box-shadow: inset; */
+}
+
+.unorderedlist {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.anotherone {
+    background-color: blue;
+    border: solid 6px skyblue;
+    
+}
