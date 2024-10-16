@@ -4,11 +4,11 @@
 }
 
 .header {
-border: solid 2px;
-background-color: rgb(218, 191, 105);
-text-align: center;
-font-family: 'Times New Roman', Times, serif;
-padding: 5px;
+    border: solid 2px;
+    background-color: rgb(218, 191, 105);
+    text-align: center;
+    font-family: 'Brush Script MT', Times, serif;
+    padding: 5px;
 }
 
 .lists {
@@ -18,17 +18,37 @@ padding: 5px;
     text-align: center;
     margin: 40px;
     padding: 5px;
-
 }
+
+.lists ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .paragraph {
     border: solid 2px;
     text-align: center;
     margin: 3px;
     padding: 4px;
+    color: rgb(61, 8, 8);
 }
+
 .welcomebanner {
     font-size: 40px;
     text-align: center;
     color: rgb(0, 0, 2);
-    display: block; /* why did it center the text?? */
+    font-family: 'Brush Script MT', Times, serif;
+    display: block;
+    /* why did it center the text?? */
+}
+
+#listedbelow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+   /*  margin: 0;
+    padding: 0; */
 }
